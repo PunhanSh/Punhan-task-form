@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+span {
+    color: red;
+}
+
+p {
+    color: red;
+    font-size: 13px;
+}
+
+.message {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+}

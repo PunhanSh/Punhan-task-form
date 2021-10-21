@@ -14,14 +14,17 @@
 <body>
     <div class="container">
         <div class="row">
-            <form action="">
+            <form action="" style="margin-top: 50px;">
                 <div class="col">
-                    <div class="input-group mt-5 mb-5">
+                    <span>*</span>
+                    <div class="input-group">
                         <span class="input-group-text" id="inputGroup-sizing-default">Input</span>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="input-form">
                     </div>
+                    <p class="message message-input">Secim edin!</p>
                 </div>
                 <div class="col">
+                    <span>*</span>
                     <select class="form-select" aria-label="Default select example" name="select-form">
                     <option selected value="0">Seciminizi edin</option>
                     <option>Secim 1</option>
@@ -30,11 +33,18 @@
                     <option>Secim 4</option>
                     <option>Secim 5</option>
                 </select>
+                    <p class="message message-select">Secim edin!</p>
+
                 </div>
-                <div class="form-group mt-5">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textarea-form"></textarea>
+                <div class="col">
+                    <span>*</span>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textarea-form"></textarea>
+                    </div>
+                    <p class="message message-textarea">Secim edin!</p>
+
+                    <button type="button" style="color: white;" class="btn btn-info mt-3" name="btn-click">Info</button>
                 </div>
-                <button type="button" style="color: white;" class="btn btn-info mt-5" name="btn-click">Info</button>
             </form>
         </div>
     </div>
